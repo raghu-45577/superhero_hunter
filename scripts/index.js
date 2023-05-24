@@ -40,7 +40,7 @@ getAllHeroes().then((data) => {
     hero.classList.add("character");
     hero.setAttribute("id", id);
     //path which lands in more-info page
-    let path = `../views/superhero.html#${id}`;
+    let path = `./views/superhero.html#${id}`;
     //create a card for character and sending the data using button to local storage
     hero.innerHTML = `<img src=${thumbnail.path}.jpg alt=${name} />
         <div class="card-body">
@@ -86,7 +86,7 @@ function showSearchedHeroes(heroes) {
     if (count <= 5) {
       let li = document.createElement("li");
       //this path will take us to more-info page of character.
-      let path = `../views/superhero.html#${id}`;
+      let path = `./views/superhero.html#${id}`;
       li.setAttribute("id", id);
       li.innerHTML += `
                 <div class="search-result">
