@@ -7,7 +7,7 @@ window.onload = function () {
   let id = pageurl.substring(pageurl.lastIndexOf("#") + 1);
 
   //url, public key and hash value for calling the api.
-  const BASE_URL = "http://gateway.marvel.com/v1/public";
+  const BASE_URL = "https://gateway.marvel.com/v1/public";
   const publicKey = "28a799e9d961cd776fa7aacf712903b6";
   const hash = "67f1536e943e3fba98e550e70ae7e97f";
 
