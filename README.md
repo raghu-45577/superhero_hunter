@@ -15,3 +15,6 @@
 - We can even add the heroes to our favorite list and remove them by clicking on favorite button.
 - Finally we have a favorite link, onclicking which will end up in favorites page. Here we will be having list of all heroes which were added to favorites previously.
 - We can also remove heroes from favorites in the favorites page.
+
+
+* Link to access the application : https://raghu-45577.github.io/superhero_hunter/index.html
